@@ -1,0 +1,38 @@
+12:10:53.641 [main] INFO  com.urbanladder.utility.Logging - Setup Complete
+12:10:58.206 [main] INFO  com.urbanladder.utility.Logging - Wishlist Clicked
+12:10:58.990 [main] INFO  com.urbanladder.utility.Logging - Sign Up Successfull
+12:10:59.761 [main] INFO  com.urbanladder.utility.Logging - Login Button Clicked
+12:11:00.607 [main] INFO  com.urbanladder.utility.Logging - Login Successful
+12:11:02.392 [main] INFO  com.urbanladder.utility.Logging - HomePage Open
+12:11:02.865 [main] INFO  com.urbanladder.utility.Logging - Help Page has been Opened
+12:11:03.337 [main] INFO  com.urbanladder.utility.Logging - Sale Header Clicked
+12:11:04.538 [main] INFO  com.urbanladder.utility.Logging - Deals of the week clicked
+12:11:06.716 [main] INFO  com.urbanladder.utility.Logging - Living Header Clicked
+12:11:08.103 [main] INFO  com.urbanladder.utility.Logging - Sofa Set Clicked
+12:11:10.269 [main] INFO  com.urbanladder.utility.Logging - Bedroom Header Clicked
+12:11:11.496 [main] INFO  com.urbanladder.utility.Logging - Beds clicked
+12:11:16.308 [main] INFO  com.urbanladder.utility.Logging - Searched for Sofa
+12:11:18.363 [main] INFO  com.urbanladder.utility.Logging - HomePage Open
+12:11:20.772 [main] INFO  com.urbanladder.utility.Logging - Searched for Bed
+12:11:22.577 [main] INFO  com.urbanladder.utility.Logging - HomePage Open
+12:11:24.810 [main] INFO  com.urbanladder.utility.Logging - Searched for Chair
+12:11:26.502 [main] INFO  com.urbanladder.utility.Logging - HomePage Open
+12:11:28.642 [main] INFO  com.urbanladder.utility.Logging - Searched for Table
+12:11:30.275 [main] INFO  com.urbanladder.utility.Logging - HomePage Open
+12:11:31.943 [main] INFO  com.urbanladder.utility.Logging - Searched for Sofa
+12:11:35.491 [main] INFO  com.urbanladder.utility.Logging - Clicked on Product
+12:11:35.733 [main] INFO  com.urbanladder.utility.Logging - Product Name Retrieved
+12:11:35.966 [main] INFO  com.urbanladder.utility.Logging - Product Price Retrieved
+12:11:37.131 [main] INFO  com.urbanladder.utility.Logging - Pincode Changed
+12:11:37.364 [main] INFO  com.urbanladder.utility.Logging - Delivery date Retrieved
+12:11:39.997 [main] INFO  com.urbanladder.utility.Logging - Product Added to cart
+12:11:40.794 [main] INFO  com.urbanladder.utility.Logging - Checkout Button Clicked
+12:11:43.939 [main] ERROR com.urbanladder.utility.Logging - Could not fill details on Address Page
+12:11:44.434 [main] INFO  com.urbanladder.utility.Logging - Save and Continue Clicked
+12:11:50.057 [main] INFO  com.urbanladder.utility.Logging - Home Page Clicked on Checkout
+12:11:52.615 [main] INFO  com.urbanladder.utility.Logging - Stores Button Clicked
+12:11:58.317 [main] INFO  com.urbanladder.utility.Logging - Store Found at ncr
+12:11:58.521 [main] INFO  com.urbanladder.utility.Logging - Store Address Retrieved
+12:12:00.313 [main] INFO  com.urbanladder.utility.Logging - Gift Cards Button Clicked
+12:12:00.327 [main] INFO  com.urbanladder.utility.Logging - Gift Card Page Opened
+12:29:18.892 [main] INFO  com.urbanladder.utility.Logging - Setup Complete

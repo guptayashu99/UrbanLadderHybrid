@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66685" started-at="2021-09-26T12:10:53 IST" finished-at="2021-09-26T12:12:00 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="66685" started-at="2021-09-26T12:10:53 IST" finished-at="2021-09-26T12:12:00 IST">
+      <class name="com.urbanladder.runner.TestRunner">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="suiteSetUp" is-config="true" duration-ms="174" started-at="2021-09-26T12:10:53 IST" finished-at="2021-09-26T12:10:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="homePage" is-config="true" duration-ms="2252" started-at="2021-09-26T12:10:53 IST" finished-at="2021-09-26T12:10:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="signUp()[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="signUp" duration-ms="3064" started-at="2021-09-26T12:10:55 IST" finished-at="2021-09-26T12:10:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="16" started-at="2021-09-26T12:10:58 IST" finished-at="2021-09-26T12:10:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUp status=SUCCESS method=TestRunner.signUp()[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="login" duration-ms="3377" started-at="2021-09-26T12:10:59 IST" finished-at="2021-09-26T12:11:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-26T12:11:02 IST" finished-at="2021-09-26T12:11:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TestRunner.login()[pri:1, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="help()[pri:3, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="help" duration-ms="469" started-at="2021-09-26T12:11:02 IST" finished-at="2021-09-26T12:11:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- help -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-26T12:11:02 IST" finished-at="2021-09-26T12:11:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=help status=SUCCESS method=TestRunner.help()[pri:3, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="sale()[pri:5, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="sale" duration-ms="3701" started-at="2021-09-26T12:11:02 IST" finished-at="2021-09-26T12:11:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sale -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-26T12:11:06 IST" finished-at="2021-09-26T12:11:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sale status=SUCCESS method=TestRunner.sale()[pri:5, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="living()[pri:6, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="living" duration-ms="3560" started-at="2021-09-26T12:11:06 IST" finished-at="2021-09-26T12:11:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- living -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="2" started-at="2021-09-26T12:11:10 IST" finished-at="2021-09-26T12:11:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=living status=SUCCESS method=TestRunner.living()[pri:6, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="bedroom()[pri:7, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="bedroom" duration-ms="3404" started-at="2021-09-26T12:11:10 IST" finished-at="2021-09-26T12:11:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bedroom -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-26T12:11:13 IST" finished-at="2021-09-26T12:11:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bedroom status=SUCCESS method=TestRunner.bedroom()[pri:7, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="searchProduct" duration-ms="3860" started-at="2021-09-26T12:11:14 IST" data-provider="searchData" finished-at="2021-09-26T12:11:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sofa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-26T12:11:18 IST" finished-at="2021-09-26T12:11:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=TestRunner.searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="searchProduct" duration-ms="4210" started-at="2021-09-26T12:11:18 IST" data-provider="searchData" finished-at="2021-09-26T12:11:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-26T12:11:22 IST" finished-at="2021-09-26T12:11:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=TestRunner.searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="searchProduct" duration-ms="3923" started-at="2021-09-26T12:11:22 IST" data-provider="searchData" finished-at="2021-09-26T12:11:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chair]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-26T12:11:26 IST" finished-at="2021-09-26T12:11:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=TestRunner.searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="searchProduct" duration-ms="3771" started-at="2021-09-26T12:11:26 IST" data-provider="searchData" finished-at="2021-09-26T12:11:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Table]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-26T12:11:30 IST" finished-at="2021-09-26T12:11:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=TestRunner.searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="selectProduct()[pri:11, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="selectProduct" duration-ms="5213" started-at="2021-09-26T12:11:30 IST" finished-at="2021-09-26T12:11:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-26T12:11:35 IST" finished-at="2021-09-26T12:11:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectProduct status=SUCCESS method=TestRunner.selectProduct()[pri:11, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="addToCart()[pri:13, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="addToCart" duration-ms="4503" started-at="2021-09-26T12:11:35 IST" finished-at="2021-09-26T12:11:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-26T12:11:39 IST" finished-at="2021-09-26T12:11:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=TestRunner.addToCart()[pri:13, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="checkout()[pri:15, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="checkout" duration-ms="4434" started-at="2021-09-26T12:11:40 IST" finished-at="2021-09-26T12:11:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-26T12:11:44 IST" finished-at="2021-09-26T12:11:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkout status=SUCCESS method=TestRunner.checkout()[pri:15, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="stores()[pri:17, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="stores" duration-ms="14084" started-at="2021-09-26T12:11:44 IST" finished-at="2021-09-26T12:11:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stores -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-26T12:11:58 IST" finished-at="2021-09-26T12:11:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=stores status=SUCCESS method=TestRunner.stores()[pri:17, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="giftCards()[pri:19, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="giftCards" duration-ms="1804" started-at="2021-09-26T12:11:58 IST" finished-at="2021-09-26T12:12:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCards -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-26T12:12:00 IST" finished-at="2021-09-26T12:12:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=giftCards status=SUCCESS method=TestRunner.giftCards()[pri:19, instance:com.urbanladder.runner.TestRunner@52de51b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:com.urbanladder.runner.TestRunner@52de51b6]" name="endSuite" is-config="true" duration-ms="904" started-at="2021-09-26T12:12:00 IST" finished-at="2021-09-26T12:12:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- com.urbanladder.runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
