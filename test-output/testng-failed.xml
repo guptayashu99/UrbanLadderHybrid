@@ -3,15 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.urbanladder.runner.Hooks">
+      <class name="com.urbanladder.runner.TestRunner">
         <methods>
-          <include name="getResult"/>
-          <include name="endSuite"/>
-          <include name="socialMedia"/>
-          <include name="suiteSetUp"/>
           <include name="homePage"/>
+          <include name="giftCards"/>
+          <include name="socialMedia" invocation-numbers="0 1 2 3 5"/>
+          <include name="suiteSetUp"/>
+          <include name="endSuite"/>
+          <include name="getResult"/>
+          <include name="stores"/>
         </methods>
-      </class> <!-- com.urbanladder.runner.Hooks -->
+      </class> <!-- com.urbanladder.runner.TestRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -4,11 +4,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-
 import com.urbanladder.reusablecomponent.ReusableMethods;
 import com.urbanladder.uistore.FooterUI;
 import com.urbanladder.utility.Logging;
@@ -21,17 +17,15 @@ public class Footer {
 	public static boolean getAppStore(WebDriver driver) {
 		flag = null;
 		try {
-			Actions a = new Actions(driver);
-			WebElement appstore = ReusableMethods.getElement(driver, FooterUI.appstore);
-			a.moveToElement(appstore).keyDown(Keys.CONTROL).click();
-			Set<String> ids = driver.getWindowHandles();
-			Iterator<String> it = ids.iterator();
-			String urban = it.next();
-			String apple = it.next();
-			driver.switchTo().window(apple);
+			ReusableMethods.click(FooterUI.appstore, driver);
+//			Set<String> ids = driver.getWindowHandles();
+//			Iterator<String> it = ids.iterator();
+//			String urban = it.next();
+//			String apple = it.next();
+//			driver.switchTo().window(apple);
 			System.out.println(driver.getTitle());
 			driver.close();
-			driver.switchTo().window(urban);
+//			driver.switchTo().window(urban);
 			flag = true;
 			Logging.log("info", "Appstore has been Opened");
 		}
@@ -46,9 +40,10 @@ public class Footer {
 	public static boolean getPlayStore(WebDriver driver) {
 		flag = null;
 		try {			
-			Actions a = new Actions(driver);
-			WebElement appstore = ReusableMethods.getElement(driver, FooterUI.playstore);
-			a.moveToElement(appstore).keyDown(Keys.CONTROL).click();
+//			Actions a = new Actions(driver);
+//			WebElement appstore = ReusableMethods.getElement(driver, FooterUI.playstore);
+//			a.moveToElement(appstore).click();
+			ReusableMethods.click(FooterUI.playstore, driver);
 			Set<String> ids = driver.getWindowHandles();
 			Iterator<String> it = ids.iterator();
 			String urban = it.next();
@@ -86,6 +81,8 @@ public class Footer {
 			System.out.println("Title is "+title);
 			if(title.toLowerCase().contains("urban ladder") || title.toLowerCase().contains("sign in")) {
 				System.out.println("Title contains urban ladder "+selector);
+				driver.close();
+				driver.switchTo().window(parent);
 				return true;
 			}
 		}

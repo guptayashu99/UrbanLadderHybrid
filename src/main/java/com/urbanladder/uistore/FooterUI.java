@@ -7,11 +7,11 @@ public class FooterUI {
 	
 	public static By twitter = By.xpath("//a[@href='https://twitter.com/UrbanLadder']");
 	
-	public static By pintrest = By.xpath("//a[@href='https://www.pinterest.com/urbanladder/']");
+	public static By pintrest = By.xpath("//a[@href='https://www.pinterest.com/urbanladder']");
 	
 	public static By youtube = By.xpath("//a[@href='https://youtube.com/user/urbanladder']");
 	
-	public static By instagram = By.xpath("//a[@href='https://instagram.com/urbanladder/']");
+	public static By instagram = By.xpath("//a[@href='https://instagram.com/urbanladder']");
 	
 	public static By linkedin = By.xpath("//a[@href='https://in.linkedin.com/company/urban-ladder']");
 	

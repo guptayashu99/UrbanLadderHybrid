@@ -1,9 +1,11 @@
 package com.urbanladder.runner;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -31,7 +33,7 @@ import com.urbanladder.utility.ExtentReportGenerator;
 import com.urbanladder.utility.Logging;
 import com.urbanladder.reusablecomponent.ReusableMethods;
 import com.urbanladder.utility.OpenReport;
-
+import com.urbanladder.utility.SendEmail;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -42,16 +44,8 @@ public class TestRunner extends ReusableComponents{
 
 	ExtentReports reporter;
 	static ExtentTest test;
-	public static Logger log =  (Logger) LogManager.getLogger(TestRunner.class.getName());
-	Header h = new Header();
-	WebDriver driver; 
+	WebDriver driver;
 	Boolean flag = null;
-
-	public TestRunner() throws IOException {
-		super();
-		driver = ReusableComponents.initializeDriver();
-
-	}
 	
 	//Initialize Extent Reports and Logger
 	@BeforeSuite
@@ -63,26 +57,31 @@ public class TestRunner extends ReusableComponents{
 	//Initialize the WebDriver and open the URL
 	@BeforeTest
 	public void homePage() throws IOException {
+		driver = ReusableComponents.initializeDriver();
 		driver.manage().window().maximize();
 		ReusableMethods.getURL(driver);
-		test = reporter.createTest("Sign Up and Login");
+		
 	}
 	
 
 	//Sign Up
 	@Test(priority = 0)
 	public void signUp() throws IOException {
+		test = reporter.createTest("Sign Up");
 		flag = Header.getWishList(driver);
 		flag = SignUpPage.getSignUp(driver);
+		Assert.assertTrue(flag);
 		
 	}
 	
 	//Login
 	@Test(priority = 1)
 	public void login() throws IOException {
+		test = reporter.createTest("Login");
 		flag = SignUpPage.clickLogin(driver);
 		flag = LoginPage.getLogin(driver);
 		flag = Header.getHomePage(driver);
+		Assert.assertTrue(flag);
 	}
 
 
@@ -106,20 +105,20 @@ public class TestRunner extends ReusableComponents{
 	@Test(priority = 6)
 	public void living() {
 		flag = Header.getLiving(driver);
-		//Assert.assertTrue(flag);
+		Assert.assertTrue(flag);
 	}
 	
 		//Bedroom Test
 	@Test(priority = 7)
 	public void bedroom() {
 		flag = Header.getBedroom(driver);
-		//Assert.assertTrue(flag);
+		Assert.assertTrue(flag);
+		test = reporter.createTest("Search Box Test");
 	}
 	
 	//Search Box Test
 	@Test(priority = 9, dataProvider="searchData")
 	public void searchProduct(String product) {
-		test = reporter.createTest("Search Box Test");
 		flag = SearchPage.search(driver, product);
 		flag = Header.getHomePage(driver);
 		Assert.assertTrue(flag);
@@ -128,19 +127,23 @@ public class TestRunner extends ReusableComponents{
 	//Select Product from Search Page
 	@Test(priority = 11)
 	public void selectProduct() {
+		test = reporter.createTest("Product Selection and Checkout");
 		flag = SearchPage.search(driver, "Sofa");
 		flag = SearchPage.getProduct(driver);
+		Assert.assertTrue(flag);
 		
 	}
 	
 		//Product Page Test
 	@Test(priority = 13)
 	public void addToCart() throws IOException {
+		test = reporter.createTest("Checking Out");
 		flag = ProductPage.getProductName(driver);
 		flag = ProductPage.getPrice(driver);
 		flag = ProductPage.getPincode(driver);
 		flag = ProductPage.getDeliveryDate(driver);
 		flag = ProductPage.getAddToCart(driver);
+		Assert.assertTrue(flag);
 	}
 	
 	//Checkout
@@ -149,32 +152,42 @@ public class TestRunner extends ReusableComponents{
 		flag = CheckoutPage.getClickCheckout(driver);
 		flag = CheckoutPage.getDetails(driver);
 		flag = CheckoutPage.getSave(driver);
+		Assert.assertTrue(flag);
 	}
 	
+	//Stores
 	@Test(priority = 17)
 	public void stores() throws IOException {
+		test = reporter.createTest("Stores");
 		flag = CheckoutPage.getHome(driver);
 		flag = Header.getStoreButton(driver);
 		flag = StorePage.getStores(driver);
 		flag = StorePage.getStoreAddress(driver);
+		Assert.assertTrue(flag);
 	}
 	
+	//Gift Card
 	@Test(priority = 19)
 	public void giftCards() {
+		test = reporter.createTest("Gift Cards Page");
 		flag = Header.getGiftButton(driver);
 		flag = GiftCardsPage.verifyTitle(driver);
+		Assert.assertTrue(flag);
+		test = reporter.createTest("Social Media Links Test");
 	}
 	
+	//Footer Test
 //	@Test(priority = 21)
 //	public void applink() {
 //		flag = Footer.getAppStore(driver);
 //		flag = Footer.getPlayStore(driver);
 //	}
 	
-//	@Test(priority = 23, dataProvider="websiteNames")
-//	public void socialMedia(By locator) throws InterruptedException {
-//		flag = Footer.verifyWebsites(driver, locator);
-//	}
+	@Test(priority = 23, dataProvider="websiteNames")
+	public void socialMedia(By locator) throws InterruptedException {
+		flag = Footer.verifyWebsites(driver, locator);
+		Assert.assertTrue(flag);
+	}
 	
 	
 	@AfterMethod
@@ -195,10 +208,13 @@ public class TestRunner extends ReusableComponents{
 	@AfterSuite
 	public void endSuite() throws InterruptedException, IOException {
 		reporter.flush();
-//		String report = OpenReport.openReport().getCanonicalPath();
-//		System.out.println(report);
-//		ReusableComponents.initializeDriver();
-//		driver.get(report);
+		Thread.sleep(2000);
+		File report = OpenReport.openReport();
+		SendEmail.sendMail(report);
+		String reportpath = report.getCanonicalPath();
+		System.out.println(reportpath);
+		ReusableComponents.initializeDriver();
+		driver.get(reportpath);
 	}
 	
 	//DATA PROVIDERS
