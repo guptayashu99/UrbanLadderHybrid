@@ -18,7 +18,7 @@ import javax.mail.internet.MimeMultipart;
 public class SendEmail {
 	
 	public static void main(String[] args) throws IOException {
-		//sendMail();
+
 	}
 	
 	public static void sendMail(File file) throws IOException {
@@ -29,10 +29,10 @@ public class SendEmail {
 		String to = PropertyFileUtil.loadFile().getProperty("sendemailtoid");
 		
 		//Sender's Email Address
-		final String fromid = PropertyFileUtil.loadFile().getProperty("sendemailfromid");
+		 String fromid = PropertyFileUtil.loadFile().getProperty("sendemailfromid");
 		
 		//Sender's Email Password
-		final String frompass = PropertyFileUtil.loadFile().getProperty("sendemailfrompass");
+		String frompass = PropertyFileUtil.loadFile().getProperty("sendemailfrompass");
 		
 		
 		//SMTP Host Name
@@ -71,7 +71,7 @@ public class SendEmail {
             message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
 
             // Set Subject: header field
-            message.setSubject("This is the Subject Line!");
+            message.setSubject("Report for Automation Testing");
             
             Multipart mult = new MimeMultipart();
             

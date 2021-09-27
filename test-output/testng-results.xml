@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="110786" started-at="2021-09-27T12:35:45 IST" finished-at="2021-09-27T12:37:36 IST">
+  <suite name="Default suite" duration-ms="80944" started-at="2021-09-27T14:53:58 IST" finished-at="2021-09-27T14:55:19 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="110786" started-at="2021-09-27T12:35:45 IST" finished-at="2021-09-27T12:37:36 IST">
+    <test name="Default test" duration-ms="80944" started-at="2021-09-27T14:53:58 IST" finished-at="2021-09-27T14:55:19 IST">
       <class name="com.urbanladder.runner.TestRunner">
-        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="suiteSetUp" is-config="true" duration-ms="608" started-at="2021-09-27T12:35:45 IST" finished-at="2021-09-27T12:35:45 IST">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="suiteSetUp" is-config="true" duration-ms="561" started-at="2021-09-27T14:53:57 IST" finished-at="2021-09-27T14:53:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetUp -->
-        <test-method status="PASS" signature="homePage()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="homePage" is-config="true" duration-ms="4848" started-at="2021-09-27T12:35:45 IST" finished-at="2021-09-27T12:35:50 IST">
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="homePage" is-config="true" duration-ms="3815" started-at="2021-09-27T14:53:58 IST" finished-at="2021-09-27T14:54:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage -->
-        <test-method status="PASS" signature="signUp()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="signUp" duration-ms="3479" started-at="2021-09-27T12:35:50 IST" finished-at="2021-09-27T12:35:54 IST">
+        <test-method status="PASS" signature="signUp()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="signUp" duration-ms="1627" started-at="2021-09-27T14:54:02 IST" finished-at="2021-09-27T14:54:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="12" started-at="2021-09-27T12:35:54 IST" finished-at="2021-09-27T12:35:54 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="11" started-at="2021-09-27T14:54:03 IST" finished-at="2021-09-27T14:54:03 IST">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="login" duration-ms="3493" started-at="2021-09-27T12:35:54 IST" finished-at="2021-09-27T12:35:57 IST">
+        <test-method status="PASS" signature="login()[pri:1, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="login" duration-ms="2573" started-at="2021-09-27T14:54:03 IST" finished-at="2021-09-27T14:54:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T12:35:57 IST" finished-at="2021-09-27T12:35:57 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:06 IST" finished-at="2021-09-27T14:54:06 IST">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="help()[pri:3, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="help" duration-ms="726" started-at="2021-09-27T12:35:57 IST" finished-at="2021-09-27T12:35:58 IST">
+        <test-method status="PASS" signature="help()[pri:3, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="help" duration-ms="597" started-at="2021-09-27T14:54:06 IST" finished-at="2021-09-27T14:54:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- help -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T12:35:58 IST" finished-at="2021-09-27T12:35:58 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:06 IST" finished-at="2021-09-27T14:54:06 IST">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="sale()[pri:5, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="sale" duration-ms="3373" started-at="2021-09-27T12:35:58 IST" finished-at="2021-09-27T12:36:01 IST">
+        <test-method status="PASS" signature="sale()[pri:5, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="sale" duration-ms="3310" started-at="2021-09-27T14:54:06 IST" finished-at="2021-09-27T14:54:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sale -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T12:36:01 IST" finished-at="2021-09-27T12:36:01 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:10 IST" finished-at="2021-09-27T14:54:10 IST">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="living()[pri:6, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="living" duration-ms="3276" started-at="2021-09-27T12:36:01 IST" finished-at="2021-09-27T12:36:05 IST">
+        <test-method status="PASS" signature="living()[pri:6, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="living" duration-ms="3559" started-at="2021-09-27T14:54:10 IST" finished-at="2021-09-27T14:54:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- living -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T12:36:05 IST" finished-at="2021-09-27T12:36:05 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:13 IST" finished-at="2021-09-27T14:54:13 IST">
           <params>
             <param index="0">
               <value>
@@ -90,11 +90,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="bedroom()[pri:7, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="bedroom" duration-ms="3395" started-at="2021-09-27T12:36:05 IST" finished-at="2021-09-27T12:36:08 IST">
+        <test-method status="PASS" signature="bedroom()[pri:7, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="bedroom" duration-ms="3213" started-at="2021-09-27T14:54:13 IST" finished-at="2021-09-27T14:54:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bedroom -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="2" started-at="2021-09-27T12:36:08 IST" finished-at="2021-09-27T12:36:08 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:16 IST" finished-at="2021-09-27T14:54:16 IST">
           <params>
             <param index="0">
               <value>
@@ -105,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="3710" started-at="2021-09-27T12:36:09 IST" data-provider="searchData" finished-at="2021-09-27T12:36:12 IST">
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="2376" started-at="2021-09-27T14:54:17 IST" data-provider="searchData" finished-at="2021-09-27T14:54:19 IST">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T12:36:12 IST" finished-at="2021-09-27T12:36:12 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:19 IST" finished-at="2021-09-27T14:54:19 IST">
           <params>
             <param index="0">
               <value>
@@ -127,7 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="2936" started-at="2021-09-27T12:36:12 IST" data-provider="searchData" finished-at="2021-09-27T12:36:15 IST">
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="2161" started-at="2021-09-27T14:54:19 IST" data-provider="searchData" finished-at="2021-09-27T14:54:21 IST">
           <params>
             <param index="0">
               <value>
@@ -138,18 +138,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="3" started-at="2021-09-27T12:36:15 IST" finished-at="2021-09-27T12:36:15 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=TestRunner.searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="2956" started-at="2021-09-27T12:36:15 IST" data-provider="searchData" finished-at="2021-09-27T12:36:18 IST">
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="2211" started-at="2021-09-27T14:54:21 IST" data-provider="searchData" finished-at="2021-09-27T14:54:24 IST">
           <params>
             <param index="0">
               <value>
@@ -160,7 +149,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T12:36:18 IST" finished-at="2021-09-27T12:36:18 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:21 IST" finished-at="2021-09-27T14:54:21 IST">
           <params>
             <param index="0">
               <value>
@@ -171,7 +160,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="3891" started-at="2021-09-27T12:36:18 IST" data-provider="searchData" finished-at="2021-09-27T12:36:22 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:24 IST" finished-at="2021-09-27T14:54:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=TestRunner.searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="2527" started-at="2021-09-27T14:54:24 IST" data-provider="searchData" finished-at="2021-09-27T14:54:26 IST">
           <params>
             <param index="0">
               <value>
@@ -182,7 +182,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T12:36:22 IST" finished-at="2021-09-27T12:36:22 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:26 IST" finished-at="2021-09-27T14:54:26 IST">
           <params>
             <param index="0">
               <value>
@@ -193,11 +193,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="selectProduct()[pri:11, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="selectProduct" duration-ms="5159" started-at="2021-09-27T12:36:22 IST" finished-at="2021-09-27T12:36:27 IST">
+        <test-method status="PASS" signature="selectProduct()[pri:11, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="selectProduct" duration-ms="3648" started-at="2021-09-27T14:54:26 IST" finished-at="2021-09-27T14:54:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProduct -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T12:36:27 IST" finished-at="2021-09-27T12:36:27 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:30 IST" finished-at="2021-09-27T14:54:30 IST">
           <params>
             <param index="0">
               <value>
@@ -208,11 +208,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="addToCart()[pri:13, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="addToCart" duration-ms="4364" started-at="2021-09-27T12:36:27 IST" finished-at="2021-09-27T12:36:32 IST">
+        <test-method status="PASS" signature="addToCart()[pri:13, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="addToCart" duration-ms="3685" started-at="2021-09-27T14:54:30 IST" finished-at="2021-09-27T14:54:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T12:36:32 IST" finished-at="2021-09-27T12:36:32 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:34 IST" finished-at="2021-09-27T14:54:34 IST">
           <params>
             <param index="0">
               <value>
@@ -223,11 +223,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="checkout()[pri:15, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="checkout" duration-ms="3305" started-at="2021-09-27T12:36:32 IST" finished-at="2021-09-27T12:36:35 IST">
+        <test-method status="PASS" signature="checkout()[pri:15, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="checkout" duration-ms="2857" started-at="2021-09-27T14:54:34 IST" finished-at="2021-09-27T14:54:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T12:36:35 IST" finished-at="2021-09-27T12:36:35 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:36 IST" finished-at="2021-09-27T14:54:36 IST">
           <params>
             <param index="0">
               <value>
@@ -238,11 +238,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="stores()[pri:17, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="stores" duration-ms="15483" started-at="2021-09-27T12:36:35 IST" finished-at="2021-09-27T12:36:51 IST">
+        <test-method status="PASS" signature="stores()[pri:17, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="stores" duration-ms="3867" started-at="2021-09-27T14:54:36 IST" finished-at="2021-09-27T14:54:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stores -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T12:36:51 IST" finished-at="2021-09-27T12:36:51 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:40 IST" finished-at="2021-09-27T14:54:40 IST">
           <params>
             <param index="0">
               <value>
@@ -253,11 +253,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="giftCards()[pri:19, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="giftCards" duration-ms="2152" started-at="2021-09-27T12:36:51 IST" finished-at="2021-09-27T12:36:53 IST">
+        <test-method status="PASS" signature="giftCards()[pri:19, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="giftCards" duration-ms="1294" started-at="2021-09-27T14:54:40 IST" finished-at="2021-09-27T14:54:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- giftCards -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T12:36:53 IST" finished-at="2021-09-27T12:36:53 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:42 IST" finished-at="2021-09-27T14:54:42 IST">
           <params>
             <param index="0">
               <value>
@@ -268,7 +268,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="7471" started-at="2021-09-27T12:36:53 IST" data-provider="websiteNames" finished-at="2021-09-27T12:37:00 IST">
+        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="7382" started-at="2021-09-27T14:54:42 IST" data-provider="websiteNames" finished-at="2021-09-27T14:54:49 IST">
           <params>
             <param index="0">
               <value>
@@ -279,7 +279,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="2" started-at="2021-09-27T12:37:00 IST" finished-at="2021-09-27T12:37:00 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="2" started-at="2021-09-27T14:54:49 IST" finished-at="2021-09-27T14:54:49 IST">
           <params>
             <param index="0">
               <value>
@@ -290,7 +290,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5288" started-at="2021-09-27T12:37:00 IST" data-provider="websiteNames" finished-at="2021-09-27T12:37:05 IST">
+        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5280" started-at="2021-09-27T14:54:49 IST" data-provider="websiteNames" finished-at="2021-09-27T14:54:54 IST">
           <params>
             <param index="0">
               <value>
@@ -301,7 +301,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="11194" started-at="2021-09-27T12:37:05 IST" data-provider="websiteNames" finished-at="2021-09-27T12:37:17 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:54 IST" finished-at="2021-09-27T14:54:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=socialMedia status=SUCCESS method=TestRunner.socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5279" started-at="2021-09-27T14:54:54 IST" data-provider="websiteNames" finished-at="2021-09-27T14:55:00 IST">
           <params>
             <param index="0">
               <value>
@@ -312,7 +323,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T12:37:05 IST" finished-at="2021-09-27T12:37:05 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:55:00 IST" finished-at="2021-09-27T14:55:00 IST">
           <params>
             <param index="0">
               <value>
@@ -323,18 +334,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T12:37:17 IST" finished-at="2021-09-27T12:37:17 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=socialMedia status=SUCCESS method=TestRunner.socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5272" started-at="2021-09-27T12:37:17 IST" data-provider="websiteNames" finished-at="2021-09-27T12:37:22 IST">
+        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5262" started-at="2021-09-27T14:55:00 IST" data-provider="websiteNames" finished-at="2021-09-27T14:55:05 IST">
           <params>
             <param index="0">
               <value>
@@ -345,7 +345,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T12:37:22 IST" finished-at="2021-09-27T12:37:22 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:55:05 IST" finished-at="2021-09-27T14:55:05 IST">
           <params>
             <param index="0">
               <value>
@@ -356,7 +356,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="8819" started-at="2021-09-27T12:37:22 IST" data-provider="websiteNames" finished-at="2021-09-27T12:37:31 IST">
+        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="8587" started-at="2021-09-27T14:55:05 IST" data-provider="websiteNames" finished-at="2021-09-27T14:55:13 IST">
           <params>
             <param index="0">
               <value>
@@ -367,7 +367,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T12:37:31 IST" finished-at="2021-09-27T12:37:31 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:55:13 IST" finished-at="2021-09-27T14:55:13 IST">
           <params>
             <param index="0">
               <value>
@@ -378,7 +378,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5308" started-at="2021-09-27T12:37:31 IST" data-provider="websiteNames" finished-at="2021-09-27T12:37:36 IST">
+        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5237" started-at="2021-09-27T14:55:13 IST" data-provider="websiteNames" finished-at="2021-09-27T14:55:19 IST">
           <params>
             <param index="0">
               <value>
@@ -389,7 +389,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T12:37:36 IST" finished-at="2021-09-27T12:37:36 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:55:19 IST" finished-at="2021-09-27T14:55:19 IST">
           <params>
             <param index="0">
               <value>
@@ -400,7 +400,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="endSuite()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="endSuite" is-config="true" duration-ms="2997" started-at="2021-09-27T12:37:36 IST" finished-at="2021-09-27T12:37:39 IST">
+        <test-method status="FAIL" signature="endSuite()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="endSuite" is-config="true" duration-ms="2427" started-at="2021-09-27T14:55:19 IST" finished-at="2021-09-27T14:55:21 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
