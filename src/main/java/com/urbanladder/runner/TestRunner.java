@@ -128,7 +128,7 @@ public class TestRunner extends ReusableComponents{
 	@Test(priority = 11)
 	public void selectProduct() {
 		test = reporter.createTest("Product Selection and Checkout");
-		flag = SearchPage.search(driver, "Sofa");
+		flag = SearchPage.search(driver, "table");
 		flag = SearchPage.getProduct(driver);
 		Assert.assertTrue(flag);
 		
