@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
+<testng-results skipped="0" failed="5" ignored="0" total="21" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="80944" started-at="2021-09-27T14:53:58 IST" finished-at="2021-09-27T14:55:19 IST">
+  <suite name="Default suite" duration-ms="190733" started-at="2021-09-29T08:22:32 IST" finished-at="2021-09-29T08:25:43 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="80944" started-at="2021-09-27T14:53:58 IST" finished-at="2021-09-27T14:55:19 IST">
+    <test name="Default test" duration-ms="190733" started-at="2021-09-29T08:22:32 IST" finished-at="2021-09-29T08:25:43 IST">
       <class name="com.urbanladder.runner.TestRunner">
-        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="suiteSetUp" is-config="true" duration-ms="561" started-at="2021-09-27T14:53:57 IST" finished-at="2021-09-27T14:53:58 IST">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="suiteSetUp" is-config="true" duration-ms="1091" started-at="2021-09-29T08:22:31 IST" finished-at="2021-09-29T08:22:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetUp -->
-        <test-method status="PASS" signature="homePage()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="homePage" is-config="true" duration-ms="3815" started-at="2021-09-27T14:53:58 IST" finished-at="2021-09-27T14:54:02 IST">
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="homePage" is-config="true" duration-ms="21584" started-at="2021-09-29T08:22:32 IST" finished-at="2021-09-29T08:22:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage -->
-        <test-method status="PASS" signature="signUp()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="signUp" duration-ms="1627" started-at="2021-09-27T14:54:02 IST" finished-at="2021-09-27T14:54:03 IST">
+        <test-method status="PASS" signature="signUp()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="signUp" duration-ms="3575" started-at="2021-09-29T08:22:54 IST" finished-at="2021-09-29T08:22:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="11" started-at="2021-09-27T14:54:03 IST" finished-at="2021-09-27T14:54:03 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="15" started-at="2021-09-29T08:22:57 IST" finished-at="2021-09-29T08:22:57 IST">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="login" duration-ms="2573" started-at="2021-09-27T14:54:03 IST" finished-at="2021-09-27T14:54:06 IST">
+        <test-method status="PASS" signature="login()[pri:1, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="login" duration-ms="4622" started-at="2021-09-29T08:22:57 IST" finished-at="2021-09-29T08:23:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:06 IST" finished-at="2021-09-27T14:54:06 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="2" started-at="2021-09-29T08:23:02 IST" finished-at="2021-09-29T08:23:02 IST">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="help()[pri:3, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="help" duration-ms="597" started-at="2021-09-27T14:54:06 IST" finished-at="2021-09-27T14:54:06 IST">
+        <test-method status="PASS" signature="help()[pri:3, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="help" duration-ms="933" started-at="2021-09-29T08:23:02 IST" finished-at="2021-09-29T08:23:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- help -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:06 IST" finished-at="2021-09-27T14:54:06 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:23:03 IST" finished-at="2021-09-29T08:23:03 IST">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="sale()[pri:5, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="sale" duration-ms="3310" started-at="2021-09-27T14:54:06 IST" finished-at="2021-09-27T14:54:10 IST">
+        <test-method status="PASS" signature="sale()[pri:5, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="sale" duration-ms="3736" started-at="2021-09-29T08:23:03 IST" finished-at="2021-09-29T08:23:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sale -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:10 IST" finished-at="2021-09-27T14:54:10 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:23:07 IST" finished-at="2021-09-29T08:23:07 IST">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="living()[pri:6, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="living" duration-ms="3559" started-at="2021-09-27T14:54:10 IST" finished-at="2021-09-27T14:54:13 IST">
+        <test-method status="PASS" signature="living()[pri:6, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="living" duration-ms="3434" started-at="2021-09-29T08:23:07 IST" finished-at="2021-09-29T08:23:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- living -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:13 IST" finished-at="2021-09-27T14:54:13 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:23:10 IST" finished-at="2021-09-29T08:23:10 IST">
           <params>
             <param index="0">
               <value>
@@ -90,11 +90,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="bedroom()[pri:7, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="bedroom" duration-ms="3213" started-at="2021-09-27T14:54:13 IST" finished-at="2021-09-27T14:54:16 IST">
+        <test-method status="PASS" signature="bedroom()[pri:7, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="bedroom" duration-ms="3381" started-at="2021-09-29T08:23:10 IST" finished-at="2021-09-29T08:23:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bedroom -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:16 IST" finished-at="2021-09-27T14:54:16 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:23:13 IST" finished-at="2021-09-29T08:23:13 IST">
           <params>
             <param index="0">
               <value>
@@ -105,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="2376" started-at="2021-09-27T14:54:17 IST" data-provider="searchData" finished-at="2021-09-27T14:54:19 IST">
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="4084" started-at="2021-09-29T08:23:15 IST" data-provider="searchData" finished-at="2021-09-29T08:23:19 IST">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:19 IST" finished-at="2021-09-27T14:54:19 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-29T08:23:19 IST" finished-at="2021-09-29T08:23:19 IST">
           <params>
             <param index="0">
               <value>
@@ -127,7 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="2161" started-at="2021-09-27T14:54:19 IST" data-provider="searchData" finished-at="2021-09-27T14:54:21 IST">
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="3707" started-at="2021-09-29T08:23:19 IST" data-provider="searchData" finished-at="2021-09-29T08:23:22 IST">
           <params>
             <param index="0">
               <value>
@@ -138,7 +138,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="2211" started-at="2021-09-27T14:54:21 IST" data-provider="searchData" finished-at="2021-09-27T14:54:24 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:23:22 IST" finished-at="2021-09-29T08:23:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=TestRunner.searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="4897" started-at="2021-09-29T08:23:22 IST" data-provider="searchData" finished-at="2021-09-29T08:23:27 IST">
           <params>
             <param index="0">
               <value>
@@ -149,7 +160,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:21 IST" finished-at="2021-09-27T14:54:21 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:23:27 IST" finished-at="2021-09-29T08:23:27 IST">
           <params>
             <param index="0">
               <value>
@@ -160,18 +171,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:24 IST" finished-at="2021-09-27T14:54:24 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=TestRunner.searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="2527" started-at="2021-09-27T14:54:24 IST" data-provider="searchData" finished-at="2021-09-27T14:54:26 IST">
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:9, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="searchProduct" duration-ms="4977" started-at="2021-09-29T08:23:27 IST" data-provider="searchData" finished-at="2021-09-29T08:23:32 IST">
           <params>
             <param index="0">
               <value>
@@ -182,7 +182,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:26 IST" finished-at="2021-09-27T14:54:26 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:23:32 IST" finished-at="2021-09-29T08:23:32 IST">
           <params>
             <param index="0">
               <value>
@@ -193,11 +193,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="selectProduct()[pri:11, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="selectProduct" duration-ms="3648" started-at="2021-09-27T14:54:26 IST" finished-at="2021-09-27T14:54:30 IST">
+        <test-method status="PASS" signature="selectProduct()[pri:11, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="selectProduct" duration-ms="11863" started-at="2021-09-29T08:23:32 IST" finished-at="2021-09-29T08:23:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProduct -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:30 IST" finished-at="2021-09-27T14:54:30 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:23:44 IST" finished-at="2021-09-29T08:23:44 IST">
           <params>
             <param index="0">
               <value>
@@ -208,11 +208,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="addToCart()[pri:13, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="addToCart" duration-ms="3685" started-at="2021-09-27T14:54:30 IST" finished-at="2021-09-27T14:54:34 IST">
+        <test-method status="PASS" signature="addToCart()[pri:13, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="addToCart" duration-ms="5691" started-at="2021-09-29T08:23:44 IST" finished-at="2021-09-29T08:23:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:34 IST" finished-at="2021-09-27T14:54:34 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:23:50 IST" finished-at="2021-09-29T08:23:50 IST">
           <params>
             <param index="0">
               <value>
@@ -223,11 +223,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="checkout()[pri:15, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="checkout" duration-ms="2857" started-at="2021-09-27T14:54:34 IST" finished-at="2021-09-27T14:54:36 IST">
+        <test-method status="PASS" signature="checkout()[pri:15, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="checkout" duration-ms="3969" started-at="2021-09-29T08:23:50 IST" finished-at="2021-09-29T08:23:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:36 IST" finished-at="2021-09-27T14:54:36 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:23:54 IST" finished-at="2021-09-29T08:23:54 IST">
           <params>
             <param index="0">
               <value>
@@ -238,37 +238,115 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="stores()[pri:17, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="stores" duration-ms="3867" started-at="2021-09-27T14:54:36 IST" finished-at="2021-09-27T14:54:40 IST">
+        <test-method status="FAIL" signature="stores()[pri:17, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="stores" duration-ms="32879" started-at="2021-09-29T08:23:54 IST" finished-at="2021-09-29T08:24:27 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.urbanladder.pageobject.StorePage.getStores(StorePage.java:44)
+at com.urbanladder.runner.TestRunner.stores(TestRunner.java:164)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stores -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:40 IST" finished-at="2021-09-27T14:54:40 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="4" started-at="2021-09-29T08:24:27 IST" finished-at="2021-09-29T08:24:27 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=stores status=SUCCESS method=TestRunner.stores()[pri:17, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
+                <![CDATA[[TestResult name=stores status=FAILURE method=TestRunner.stores()[pri:17, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="giftCards()[pri:19, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="giftCards" duration-ms="1294" started-at="2021-09-27T14:54:40 IST" finished-at="2021-09-27T14:54:42 IST">
+        <test-method status="FAIL" signature="giftCards()[pri:19, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="giftCards" duration-ms="10050" started-at="2021-09-29T08:24:27 IST" finished-at="2021-09-29T08:24:37 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.urbanladder.runner.TestRunner.giftCards(TestRunner.java:175)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- giftCards -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:54:42 IST" finished-at="2021-09-27T14:54:42 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="4" started-at="2021-09-29T08:24:37 IST" finished-at="2021-09-29T08:24:37 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=giftCards status=SUCCESS method=TestRunner.giftCards()[pri:19, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
+                <![CDATA[[TestResult name=giftCards status=FAILURE method=TestRunner.giftCards()[pri:19, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="7382" started-at="2021-09-27T14:54:42 IST" data-provider="websiteNames" finished-at="2021-09-27T14:54:49 IST">
+        <test-method status="FAIL" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="15121" started-at="2021-09-29T08:24:37 IST" data-provider="websiteNames" finished-at="2021-09-29T08:24:52 IST">
           <params>
             <param index="0">
               <value>
@@ -276,21 +354,63 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.urbanladder.runner.TestRunner.socialMedia(TestRunner.java:189)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="2" started-at="2021-09-27T14:54:49 IST" finished-at="2021-09-27T14:54:49 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="4" started-at="2021-09-29T08:24:52 IST" finished-at="2021-09-29T08:24:52 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=socialMedia status=SUCCESS method=TestRunner.socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
+                <![CDATA[[TestResult name=socialMedia status=FAILURE method=TestRunner.socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5280" started-at="2021-09-27T14:54:49 IST" data-provider="websiteNames" finished-at="2021-09-27T14:54:54 IST">
+        <test-method status="FAIL" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="15088" started-at="2021-09-29T08:24:52 IST" data-provider="websiteNames" finished-at="2021-09-29T08:25:07 IST">
           <params>
             <param index="0">
               <value>
@@ -298,21 +418,63 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.urbanladder.runner.TestRunner.socialMedia(TestRunner.java:189)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:54:54 IST" finished-at="2021-09-27T14:54:54 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:25:07 IST" finished-at="2021-09-29T08:25:07 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=socialMedia status=SUCCESS method=TestRunner.socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
+                <![CDATA[[TestResult name=socialMedia status=FAILURE method=TestRunner.socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5279" started-at="2021-09-27T14:54:54 IST" data-provider="websiteNames" finished-at="2021-09-27T14:55:00 IST">
+        <test-method status="FAIL" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="15062" started-at="2021-09-29T08:25:07 IST" data-provider="websiteNames" finished-at="2021-09-29T08:25:22 IST">
           <params>
             <param index="0">
               <value>
@@ -320,21 +482,63 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.urbanladder.runner.TestRunner.socialMedia(TestRunner.java:189)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:55:00 IST" finished-at="2021-09-27T14:55:00 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:25:22 IST" finished-at="2021-09-29T08:25:22 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=socialMedia status=SUCCESS method=TestRunner.socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
+                <![CDATA[[TestResult name=socialMedia status=FAILURE method=TestRunner.socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5262" started-at="2021-09-27T14:55:00 IST" data-provider="websiteNames" finished-at="2021-09-27T14:55:05 IST">
+        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="7966" started-at="2021-09-29T08:25:22 IST" data-provider="websiteNames" finished-at="2021-09-29T08:25:30 IST">
           <params>
             <param index="0">
               <value>
@@ -345,7 +549,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:55:05 IST" finished-at="2021-09-27T14:55:05 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:25:30 IST" finished-at="2021-09-29T08:25:30 IST">
           <params>
             <param index="0">
               <value>
@@ -356,7 +560,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="8587" started-at="2021-09-27T14:55:05 IST" data-provider="websiteNames" finished-at="2021-09-27T14:55:13 IST">
+        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="7329" started-at="2021-09-29T08:25:30 IST" data-provider="websiteNames" finished-at="2021-09-29T08:25:37 IST">
           <params>
             <param index="0">
               <value>
@@ -367,7 +571,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-27T14:55:13 IST" finished-at="2021-09-27T14:55:13 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:25:37 IST" finished-at="2021-09-29T08:25:37 IST">
           <params>
             <param index="0">
               <value>
@@ -378,7 +582,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5237" started-at="2021-09-27T14:55:13 IST" data-provider="websiteNames" finished-at="2021-09-27T14:55:19 IST">
+        <test-method status="PASS" signature="socialMedia(org.openqa.selenium.By)[pri:23, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="socialMedia" duration-ms="5402" started-at="2021-09-29T08:25:37 IST" data-provider="websiteNames" finished-at="2021-09-29T08:25:43 IST">
           <params>
             <param index="0">
               <value>
@@ -389,7 +593,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- socialMedia -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="0" started-at="2021-09-27T14:55:19 IST" finished-at="2021-09-27T14:55:19 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="getResult" is-config="true" duration-ms="1" started-at="2021-09-29T08:25:43 IST" finished-at="2021-09-29T08:25:43 IST">
           <params>
             <param index="0">
               <value>
@@ -400,7 +604,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="endSuite()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="endSuite" is-config="true" duration-ms="2427" started-at="2021-09-27T14:55:19 IST" finished-at="2021-09-27T14:55:21 IST">
+        <test-method status="FAIL" signature="endSuite()[pri:0, instance:com.urbanladder.runner.TestRunner@5d11346a]" name="endSuite" is-config="true" duration-ms="3836" started-at="2021-09-29T08:25:43 IST" finished-at="2021-09-29T08:25:47 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException

@@ -6,10 +6,12 @@
       <class name="com.urbanladder.runner.TestRunner">
         <methods>
           <include name="homePage"/>
-          <include name="socialMedia" invocation-numbers="3"/>
+          <include name="giftCards"/>
+          <include name="socialMedia" invocation-numbers="0 1 2"/>
           <include name="suiteSetUp"/>
           <include name="endSuite"/>
           <include name="getResult"/>
+          <include name="stores"/>
         </methods>
       </class> <!-- com.urbanladder.runner.TestRunner -->
     </classes>
